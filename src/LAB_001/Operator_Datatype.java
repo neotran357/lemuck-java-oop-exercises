@@ -12,7 +12,7 @@ public class Operator_Datatype {
         float                       Float
         double                      Double
 
-        Kiểu Primitive
+     Kiểu Primitive
          1. Boolean
             Đây là kiểu dữ liệu có bộ nhớ lưu trữ nhỏ nhất, chỉ có 1 bit. Kiểu dữ liệu này được dùng để lưu trữ hai trạng thái true hoặc false Giá trị mặc định là false.
 
@@ -46,14 +46,14 @@ public class Operator_Datatype {
           7. Float
             Float là kiểu dữ liệu lưu số thực, kích cỡ 4 byte. Giá trị mặc định là 0.0f. Kiểu Float không bao giờ được sử dụng cho các giá trị chính xác như currency.
 
-            Ví dụ: float jpy = 22.2f
+            Ví dụ: float jpy = 22.2F
 
           8. Double
             Double cũng là kiểu dữ liệu để lưu số thực, nhưng kích thước dữ liệu lớn hơn Float. Bộ nhớ của nó là 8 byte. Thông thường, kiểu dữ liệu này được sử dụng làm kiểu mặc định cho các giá trị decimal. Kiểu double cũng không bao giờ được sử dụng cho các giá trị chính xác như currency. Giá trị mặc định là 0.0d.
 
-            Ví dụ: double ct = 676.7
+            Ví dụ: double ct = 676.7D
 
-            Kiểu Non - Primitive
+      Kiểu Non - Primitive
             Trong Java tồn tại kiểu biến đối tượng, được tạo bằng cách sử dụng các constructor đã được định nghĩa của các class. Chúng được sử dụng để truy cập các đối tượng. Những biến này được khai báo ở kiểu cụ thể và không thể thay đổi được
 
             Giá trị mặc định của kiểu biến đối tượng là null. Có thể sử dụng biến đối tượng để tham chiếu tới bất kỳ đối tượng nào trong kiểu được khai báo hoặc bất kỳ kiểu tương thích nào.
