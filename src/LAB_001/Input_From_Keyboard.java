@@ -6,13 +6,13 @@ public class Input_From_Keyboard {
         // TODO Auto-generated method stub
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập Họ của bạn: ");
-        String Firstname = scanner.next();
+        String firstName = scanner.next();
         System.out.print("Nhập Chữ Lót của tên bạn: ");
-        String Middlename = scanner.next();
+        String middleName = scanner.next();
 
         System.out.print("Nhập Tên của bạn: ");
-        String Lastname = scanner.next();
-        System.out.printf("Welcome: %s %s %s \n", Firstname,Middlename,Lastname);
+        String lastName = scanner.next();
+        System.out.printf("Welcome: %s %s %s \n", firstName,middleName,lastName);
 
         System.out.print("Nhập giá trị a: ");
         int a = scanner.nextInt();
