@@ -19,5 +19,6 @@ public class Operator_Comparation {
         System.out.println("isGreaterOrEqual: " + isGreaterOrEqual);
         boolean isLessOrEqual = (a <= b); // So sánh nhỏ hơn hoặc bằng. Kết quả: false
         System.out.println("isLessOrEqual: " + isLessOrEqual);
+
     }
 }
