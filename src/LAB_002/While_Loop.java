@@ -12,12 +12,11 @@ public class While_Loop {
         System.out.print("Làm ơn nhập 1 số 2: ");
         int i = scanner.nextInt();
 
-        while (i>=n){
+        while (i >= n) {
             System.out.printf("Giá trị của n: %d\n", n);
             System.out.printf("Giá trị của i: %d\n\n", i);
             i--;
 
         }
     }
-
 }
