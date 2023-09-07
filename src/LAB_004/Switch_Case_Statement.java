@@ -11,7 +11,6 @@ public class Switch_Case_Statement {
         int n = scanner.nextInt();
 
         switch (n) {
-
             case 1:
                 System.out.println("\t\t\tRank 1");
                 break;
@@ -27,11 +26,29 @@ public class Switch_Case_Statement {
             case 5:
                 System.out.println("\t\t\tRank 5");
                 break;
-
             default:
                 System.out.println("\t\t\tChúc bạn may mắn lần sau");
                 break;
 
+        }
+
+
+        System.out.print("Làm ơn nhập 1 số nhỏ hơn 9: ");
+        int date = scanner.nextInt();
+        switch (date){
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+                System.out.println("\t\t\tNgày trong tuần");
+                break;
+            case 7:
+            case 8:
+                System.out.println("\t\t\tNgày cuối tuần");
+                break;
+            default:
+                System.out.println("\t\t\tInvalid date");
         }
     }
 }
